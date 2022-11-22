@@ -1,0 +1,17 @@
+/* 
+ * Based on code by Ryan Fait, but rewritten and tested extensively
+ */ 
+
+/* ---- Footer push ---- */
+html, body { 
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -140px;
+}
+.footer-wrap, .push {
+  height: 140px;
+}
