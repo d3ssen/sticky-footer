@@ -6,12 +6,14 @@
 html, body { 
   height: 100%;
 }
+
 #wrapper {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -140px; /* <-- negative value of #footer-wrap height; if you also have div's underneath #footer-wrap, include the height of that into this margin-bottom. */
+  margin-bottom: -140px; /* <-- negative value of #footer-wrap height; */
 }
+
 #footer-wrap, #push {
   height: 140px;
 }
