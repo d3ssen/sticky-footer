@@ -10,7 +10,7 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -140px;
+  margin-bottom: -140px; /* <-- negative value of #footer-wrap height */
 }
 #footer-wrap, #push {
   height: 140px;
