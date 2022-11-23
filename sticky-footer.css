@@ -6,12 +6,12 @@
 html, body { 
   height: 100%;
 }
-.wrapper {
+#wrapper {
   min-height: 100%;
   height: auto !important;
   height: 100%;
   margin-bottom: -140px;
 }
-.footer-wrap, .push {
+#footer-wrap, #push {
   height: 140px;
 }
