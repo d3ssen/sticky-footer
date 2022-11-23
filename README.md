@@ -9,6 +9,6 @@ I hope the `<!-- remarks -->` are clear about what code to put where.
 
 
 # Notice
-### regarding `#wrapper` bottom-margin.
+### ...regarding `#wrapper` bottom-margin.
 
 If you have more `<div>` sections underneath `#footer-wrap` you need to include the total height of those sections into the `margin-bottom` value of `#wrapper` in de style.css file. Otherwise your sections underneath `#footer-wrap` will disappear beneath the view window.
