@@ -1,4 +1,4 @@
 /* ---- Sticky Footer ---------------- */
 html, body { height: 100%; }
 #wrapper { display: flex; flex-direction: column; min-height: 100vh; }
-#push { flex-grow: 1; }
+main { flex: 1; }
