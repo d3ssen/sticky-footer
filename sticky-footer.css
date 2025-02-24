@@ -1,4 +1,4 @@
-/* ---- Sticky Footer ---------------- */
+/* ---- Sticky Footer ---- */
 html, body { height: 100%; }
-#wrapper { display: flex; flex-direction: column; min-height: 100vh; }
-main { flex: 1; }
+#outer-wrapper { display: flex; flex-direction: column; min-height: 100vh; }
+#body-wrapper { flex: 1; } /* ---- Expands body-wrapper regardless of header-wrapper and footer-wrapper height ---- */
