@@ -1,4 +1,18 @@
+/* ---- Put code shown below at the top of your CSS code, or below your :root declarations if you have any ---- */
+
 /* ---- Sticky Footer ---- */
-html, body { height: 100%; }
-#outer-wrapper { display: flex; flex-direction: column; min-height: 100vh; }
-#body-wrapper { flex: 1; } /* ---- Expands body-wrapper regardless of header-wrapper and footer-wrapper height ---- */
+html, body {
+  height: 100%; /* ---- Ensures html and body will always be 100% height ---- */
+}
+
+#outer-wrapper { 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* ---- Ensures outer-wrapper is always 100% Viewport Height ---- */
+}
+
+#body-wrapper {
+  flex: 1; /* ---- Expands body-wrapper regardless of header-wrapper and footer-wrapper height ---- */
+} 
+
+/* ---- Continue your regular CSS code below ---- */
